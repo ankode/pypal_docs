@@ -63,7 +63,7 @@ def main():
     service = discovery.build('sheets', 'v4', http=http,
                               discoveryServiceUrl=discoveryUrl)
 
-    spreadsheetId = 'SHEET_ID_HERE'
+    spreadsheetId = 'SHEET_ID_HERE' #put your sheet Id here
     rangeName = "Sheet1!A1:B1"
 
     rows = [['LOL','1','2',3],['4','5']]
